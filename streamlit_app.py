@@ -6,6 +6,17 @@ import time
 import pandas as pd
 from dotenv import load_dotenv
 
+from google.oauth2 import service_account
+
+SCOPES = [
+    "https://www.googleapis.com/auth/drive",
+    "https://www.googleapis.com/auth/spreadsheets",
+]
+
+credentials = service_account.Credentials.from_service_account_info(
+    st.secrets["gcp_service_account"],
+    scopes=SCOPES,
+)
 # Import our backend agent components
 from config.config import Config
 from agent.drive_scanner import DriveScanner
