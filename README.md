@@ -279,7 +279,7 @@ The following events are recorded:
 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/Attendance-Email-AI-Agent.git
+git clone https://github.com/Varad-7611/AI-Attendance-Email-System.git
 ```
 
 Move inside the project
