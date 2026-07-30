@@ -337,10 +337,27 @@ python main.py
 
 ---
 
+# Screenshot of Application
+
+<img width="1832" height="875" alt="Screenshot 2026-07-30 180601" src="https://github.com/user-attachments/assets/f946744d-6721-4513-9aa3-ab73d55edf19" />
+
+---
+
+<img width="1856" height="827" alt="Screenshot 2026-07-30 180719" src="https://github.com/user-attachments/assets/88044e4a-9a23-4f49-a251-87b257022829" />
+
+---
+
+<img width="1794" height="639" alt="Screenshot 2026-07-30 180735" src="https://github.com/user-attachments/assets/bf7e90bc-86e7-4bfe-8994-3e4c46f7f2fc" />
+
+---
+
+<img width="1820" height="470" alt="Screenshot 2026-07-30 180748" src="https://github.com/user-attachments/assets/18278a27-0244-4b3c-9c23-ba8a93d0301f" />
+
+---
+
 # 📄 License
 
 This project is licensed under the MIT License.
 
 ---
-
 
