@@ -1,0 +1,865 @@
+2026-07-15 19:53:20,380 - Main - INFO - Agent Started
+2026-07-15 19:53:20,380 - Main - ERROR - Configuration Initialization failed: Missing environment variable: EMAIL_ADDRESS
+2026-07-15 19:54:13,469 - Main - INFO - Agent Started
+2026-07-15 19:54:13,469 - DriveScanner - ERROR - Google Drive connection failed: [Errno 2] No such file or directory: 'credentials/service_account.json'
+2026-07-15 19:54:13,469 - Main - CRITICAL - Critical System Failure: [Errno 2] No such file or directory: 'credentials/service_account.json'
+2026-07-15 20:06:44,814 - Main - INFO - Agent Started
+2026-07-15 20:06:44,933 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 20:06:45,039 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 15-07-2026
+2026-07-15 20:06:46,477 - DriveScanner - ERROR - Error querying drive (Attempt 1): <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files?q=%271XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt%27+in+parents+and+name+%3D+%2715-07-2026%27+and+trashed+%3D+false&fields=files%28id%2C+name%29&alt=json returned "Google Drive API has not been used in project 406029061515 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/drive.googleapis.com/overview?project=406029061515 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Google Drive API has not been used in project 406029061515 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/drive.googleapis.com/overview?project=406029061515 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2026-07-15 20:06:47,792 - DriveScanner - ERROR - Error querying drive (Attempt 2): <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files?q=%271XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt%27+in+parents+and+name+%3D+%2715-07-2026%27+and+trashed+%3D+false&fields=files%28id%2C+name%29&alt=json returned "Google Drive API has not been used in project 406029061515 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/drive.googleapis.com/overview?project=406029061515 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Google Drive API has not been used in project 406029061515 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/drive.googleapis.com/overview?project=406029061515 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2026-07-15 20:06:50,107 - DriveScanner - ERROR - Error querying drive (Attempt 3): <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files?q=%271XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt%27+in+parents+and+name+%3D+%2715-07-2026%27+and+trashed+%3D+false&fields=files%28id%2C+name%29&alt=json returned "Google Drive API has not been used in project 406029061515 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/drive.googleapis.com/overview?project=406029061515 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Google Drive API has not been used in project 406029061515 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/drive.googleapis.com/overview?project=406029061515 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2026-07-15 20:06:54,109 - Main - WARNING - Today's Spreadsheet missing or not found. Exiting gracefully.
+2026-07-15 20:06:54,109 - Main - INFO - Execution Completed
+2026-07-15 20:46:31,214 - Main - INFO - Agent Started
+2026-07-15 20:46:31,256 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 20:46:31,291 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 15-07-2026
+2026-07-15 20:46:32,501 - DriveScanner - WARNING - File 15-07-2026 not found.
+2026-07-15 20:46:32,502 - Main - WARNING - Today's Spreadsheet missing or not found. Exiting gracefully.
+2026-07-15 20:46:32,502 - Main - INFO - Execution Completed
+2026-07-15 20:47:22,585 - Main - INFO - Agent Started
+2026-07-15 20:47:22,626 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 20:47:22,663 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: B.tech
+2026-07-15 20:47:23,852 - DriveScanner - WARNING - File B.tech not found.
+2026-07-15 20:47:23,853 - Main - WARNING - Spreadsheet 'B.tech' missing or not found. Exiting gracefully.
+2026-07-15 20:47:23,853 - Main - INFO - Execution Completed
+2026-07-15 20:48:30,056 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 20:49:25,724 - Main - INFO - Agent Started
+2026-07-15 20:49:25,765 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 20:49:25,800 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 15/7/2026
+2026-07-15 20:49:26,963 - DriveScanner - INFO - File 15/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-15 20:49:26,963 - Main - INFO - Spreadsheet '15/7/2026' Found
+2026-07-15 20:49:28,969 - Main - INFO - Found sheets: ['15/07/2026', 'Sheet2']
+2026-07-15 20:49:29,659 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-15 20:49:29,659 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-15 20:49:30,377 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 20:49:30,378 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 20:49:31,225 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-15 20:49:35,441 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-15 20:49:35,441 - Main - INFO - Email Sent to Varad Gotkhindikar
+2026-07-15 20:49:35,441 - Main - INFO - Execution Completed
+2026-07-15 20:54:49,022 - Main - INFO - Agent Started
+2026-07-15 20:54:49,064 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 20:54:49,100 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 15/7/2026
+2026-07-15 20:54:50,300 - DriveScanner - INFO - File 15/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-15 20:54:50,300 - Main - INFO - Spreadsheet '15/7/2026' Found
+2026-07-15 20:54:51,733 - Main - INFO - Found sheets: ['15/07/2026']
+2026-07-15 20:54:52,209 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-15 20:54:52,210 - Main - INFO - No absent students found today.
+2026-07-15 20:54:52,210 - Main - INFO - Execution Completed
+2026-07-15 20:58:07,772 - Main - INFO - Agent Started
+2026-07-15 20:58:07,813 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 20:58:07,849 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 15/7/2026
+2026-07-15 20:58:24,036 - DriveScanner - INFO - File 15/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-15 20:58:24,036 - Main - INFO - Spreadsheet '15/7/2026' Found
+2026-07-15 20:58:25,436 - Main - INFO - Found sheets: ['15/07/2026']
+2026-07-15 20:58:26,165 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-15 20:58:26,165 - Main - INFO - No absent students found today.
+2026-07-15 20:58:26,165 - Main - INFO - Execution Completed
+2026-07-15 20:59:09,609 - Main - INFO - Agent Started
+2026-07-15 20:59:09,650 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 20:59:09,686 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 15/7/2026
+2026-07-15 20:59:11,074 - DriveScanner - WARNING - File 15/7/2026 not found.
+2026-07-15 20:59:11,074 - Main - WARNING - Spreadsheet '15/7/2026' missing or not found. Exiting gracefully.
+2026-07-15 20:59:11,074 - Main - INFO - Execution Completed
+2026-07-15 20:59:40,738 - Main - INFO - Agent Started
+2026-07-15 20:59:40,779 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 20:59:40,815 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 15/7/2026
+2026-07-15 20:59:41,888 - DriveScanner - INFO - File 15/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-15 20:59:41,889 - Main - INFO - Spreadsheet '15/7/2026' Found
+2026-07-15 20:59:43,122 - Main - INFO - Found sheets: ['15/07/2026']
+2026-07-15 20:59:43,819 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-15 20:59:43,819 - Main - INFO - No absent students found today.
+2026-07-15 20:59:43,819 - Main - INFO - Execution Completed
+2026-07-15 21:00:28,848 - Main - INFO - Agent Started
+2026-07-15 21:00:28,888 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 21:00:28,923 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 15/7/2026
+2026-07-15 21:00:30,265 - DriveScanner - INFO - File 15/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-15 21:00:30,266 - Main - INFO - Spreadsheet '15/7/2026' Found
+2026-07-15 21:00:31,638 - Main - INFO - Found sheets: ['15/07/2026']
+2026-07-15 21:00:32,226 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-15 21:00:32,226 - Main - INFO - No absent students found today.
+2026-07-15 21:00:32,226 - Main - INFO - Execution Completed
+2026-07-15 21:05:11,858 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 21:06:10,643 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 21:07:04,343 - Main - INFO - Agent Started
+2026-07-15 21:07:04,383 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 21:07:04,418 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 15/7/2026
+2026-07-15 21:07:05,606 - DriveScanner - INFO - File 15/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-15 21:07:05,606 - Main - INFO - Spreadsheet '15/7/2026' Found
+2026-07-15 21:07:06,987 - Main - INFO - Found sheets: ['15/07/2026']
+2026-07-15 21:07:07,567 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-15 21:07:07,567 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-15 21:07:08,199 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:07:08,199 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:07:09,132 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-15 21:07:12,835 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-15 21:07:12,835 - Main - INFO - Email Sent to Varad Gotkhindikar
+2026-07-15 21:07:12,836 - Main - INFO - Execution Completed
+2026-07-15 21:07:17,034 - Main - INFO - Agent Started
+2026-07-15 21:07:17,075 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 21:07:17,111 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 15/7/2026
+2026-07-15 21:07:18,270 - DriveScanner - INFO - File 15/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-15 21:07:18,271 - Main - INFO - Spreadsheet '15/7/2026' Found
+2026-07-15 21:07:19,669 - Main - INFO - Found sheets: ['15/07/2026']
+2026-07-15 21:07:20,298 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-15 21:07:20,298 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-15 21:07:20,955 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:07:20,955 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:07:21,897 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-15 21:07:25,372 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-15 21:07:25,373 - Main - INFO - Email Sent to Varad Gotkhindikar
+2026-07-15 21:07:25,373 - Main - INFO - Execution Completed
+2026-07-15 21:11:21,204 - Main - INFO - Agent Started
+2026-07-15 21:11:21,247 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 21:11:21,284 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 15/7/2026
+2026-07-15 21:11:22,510 - DriveScanner - INFO - File 15/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-15 21:11:22,511 - Main - INFO - Spreadsheet '15/7/2026' Found
+2026-07-15 21:11:24,066 - Main - INFO - Found sheets: ['15/07/2026']
+2026-07-15 21:11:24,697 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-15 21:11:24,698 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-15 21:11:25,425 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:11:25,425 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:11:26,526 - AIEmailGenerator - INFO - Generated email format check: <style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .header {
+    background-color: #007bff;
+...
+2026-07-15 21:11:26,526 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-15 21:11:30,018 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-15 21:11:30,018 - Main - INFO - Email Sent to Varad Gotkhindikar
+2026-07-15 21:11:30,018 - Main - INFO - Execution Completed
+2026-07-15 21:15:48,816 - Main - INFO - Agent Started
+2026-07-15 21:15:48,858 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 21:15:48,895 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 15/7/2026
+2026-07-15 21:15:50,003 - DriveScanner - INFO - File 15/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-15 21:15:50,003 - Main - INFO - Spreadsheet '15/7/2026' Found
+2026-07-15 21:15:51,738 - Main - INFO - Found sheets: ['15/07/2026']
+2026-07-15 21:15:52,219 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-15 21:15:52,219 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-15 21:15:52,870 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:15:52,871 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:15:53,653 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-15 21:15:53,654 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-15 21:15:55,864 - EmailSender - ERROR - SMTP failure when sending to internshipwerbung@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3140e538368sm4129957eec.12 - gsmtp')
+2026-07-15 21:15:55,864 - Main - ERROR - Failed to process email for Varad Gotkhindikar: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3140e538368sm4129957eec.12 - gsmtp')
+2026-07-15 21:15:55,864 - Main - INFO - Execution Completed
+2026-07-15 21:16:21,750 - Main - INFO - Agent Started
+2026-07-15 21:16:21,792 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 21:16:21,828 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 15/7/2026
+2026-07-15 21:16:23,047 - DriveScanner - INFO - File 15/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-15 21:16:23,047 - Main - INFO - Spreadsheet '15/7/2026' Found
+2026-07-15 21:16:24,422 - Main - INFO - Found sheets: ['15/07/2026']
+2026-07-15 21:16:24,892 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-15 21:16:24,893 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-15 21:16:25,606 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:16:25,606 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:16:26,500 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-15 21:16:26,500 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-15 21:16:28,616 - EmailSender - ERROR - SMTP failure when sending to internshipwerbung@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3140e531c6csm2567303eec.8 - gsmtp')
+2026-07-15 21:16:28,616 - Main - ERROR - Failed to process email for Varad Gotkhindikar: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3140e531c6csm2567303eec.8 - gsmtp')
+2026-07-15 21:16:28,616 - Main - INFO - Execution Completed
+2026-07-15 21:16:54,440 - Main - INFO - Agent Started
+2026-07-15 21:16:54,480 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 21:16:54,514 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 15/7/2026
+2026-07-15 21:16:55,868 - DriveScanner - INFO - File 15/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-15 21:16:55,868 - Main - INFO - Spreadsheet '15/7/2026' Found
+2026-07-15 21:16:57,130 - Main - INFO - Found sheets: ['15/07/2026']
+2026-07-15 21:16:57,725 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-15 21:16:57,725 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-15 21:16:58,378 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:16:58,378 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:16:59,121 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-15 21:16:59,121 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-15 21:17:01,253 - EmailSender - ERROR - SMTP failure when sending to internshipwerbung@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3140e6a626bsm2533538eec.19 - gsmtp')
+2026-07-15 21:17:01,253 - Main - ERROR - Failed to process email for Varad Gotkhindikar: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3140e6a626bsm2533538eec.19 - gsmtp')
+2026-07-15 21:17:01,253 - Main - INFO - Execution Completed
+2026-07-15 21:18:39,144 - Main - INFO - Agent Started
+2026-07-15 21:18:39,185 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 21:18:39,223 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 15/7/2026
+2026-07-15 21:18:40,543 - DriveScanner - INFO - File 15/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-15 21:18:40,543 - Main - INFO - Spreadsheet '15/7/2026' Found
+2026-07-15 21:18:41,799 - Main - INFO - Found sheets: ['15/07/2026']
+2026-07-15 21:18:42,386 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-15 21:18:42,386 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-15 21:18:43,003 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:18:43,003 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:18:43,860 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-15 21:18:43,861 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-15 21:18:45,984 - EmailSender - ERROR - SMTP failure when sending to internshipwerbung@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-13cd4365b0dsm4314266c88.15 - gsmtp')
+2026-07-15 21:18:45,984 - Main - ERROR - Failed to process email for Varad Gotkhindikar: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-13cd4365b0dsm4314266c88.15 - gsmtp')
+2026-07-15 21:18:45,985 - Main - INFO - Execution Completed
+2026-07-15 21:42:43,798 - Main - INFO - Agent Started
+2026-07-15 21:42:43,858 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 21:42:43,903 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 15/7/2026
+2026-07-15 21:42:45,209 - DriveScanner - INFO - File 15/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-15 21:42:45,209 - Main - INFO - Spreadsheet '15/7/2026' Found
+2026-07-15 21:42:46,845 - Main - INFO - Found sheets: ['15/07/2026']
+2026-07-15 21:42:47,490 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-15 21:42:47,490 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-15 21:42:48,156 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:42:48,156 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:42:49,229 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-15 21:42:49,229 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-15 21:42:52,870 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-15 21:42:52,870 - Main - INFO - Email Sent to Varad Gotkhindikar
+2026-07-15 21:42:52,870 - Main - INFO - Execution Completed
+2026-07-15 21:43:12,798 - Main - INFO - Agent Started
+2026-07-15 21:43:12,839 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 21:43:12,876 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 15/7/2026
+2026-07-15 21:43:14,020 - DriveScanner - INFO - File 15/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-15 21:43:14,020 - Main - INFO - Spreadsheet '15/7/2026' Found
+2026-07-15 21:43:15,356 - Main - INFO - Found sheets: ['15/07/2026']
+2026-07-15 21:43:15,826 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-15 21:43:15,826 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-15 21:43:16,541 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:43:16,541 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:43:17,434 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-15 21:43:17,435 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-15 21:43:20,739 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-15 21:43:20,739 - Main - INFO - Email Sent to Varad Gotkhindikar
+2026-07-15 21:43:20,740 - Main - INFO - Execution Completed
+2026-07-15 21:44:58,928 - Main - INFO - Agent Started
+2026-07-15 21:44:58,970 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 21:44:59,006 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 15/7/2026
+2026-07-15 21:45:00,152 - DriveScanner - INFO - File 15/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-15 21:45:00,152 - Main - INFO - Spreadsheet '15/7/2026' Found
+2026-07-15 21:45:01,461 - Main - INFO - Found sheets: ['15/07/2026']
+2026-07-15 21:45:01,928 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-15 21:45:01,929 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-15 21:45:02,632 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:45:02,633 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:45:04,598 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-15 21:45:04,598 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-15 21:45:08,118 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-15 21:45:08,118 - Main - INFO - Email Sent to Varad Gotkhindikar
+2026-07-15 21:45:08,118 - Main - INFO - Execution Completed
+2026-07-15 21:46:17,452 - Main - INFO - Agent Started
+2026-07-15 21:46:17,493 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 21:46:17,529 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 15/7/2026
+2026-07-15 21:46:18,701 - DriveScanner - INFO - File 15/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-15 21:46:18,702 - Main - INFO - Spreadsheet '15/7/2026' Found
+2026-07-15 21:46:20,140 - Main - INFO - Found sheets: ['15/07/2026']
+2026-07-15 21:46:20,754 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-15 21:46:20,754 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-15 21:46:21,468 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:46:21,468 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:46:24,585 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-15 21:46:24,585 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-15 21:46:27,965 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-15 21:46:27,965 - Main - INFO - Email Sent to Varad Gotkhindikar
+2026-07-15 21:46:27,965 - Main - INFO - Execution Completed
+2026-07-15 21:49:08,195 - Main - INFO - Agent Started
+2026-07-15 21:49:08,237 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 21:49:08,272 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 15/7/2026
+2026-07-15 21:49:09,736 - DriveScanner - INFO - File 15/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-15 21:49:09,737 - Main - INFO - Spreadsheet '15/7/2026' Found
+2026-07-15 21:49:11,351 - Main - INFO - Found sheets: ['15/07/2026']
+2026-07-15 21:49:11,939 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-15 21:49:11,939 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-15 21:49:12,677 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:49:12,677 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:49:14,264 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-15 21:49:14,264 - EmailSender - INFO - Sending Email to varadg1705@gmail.com
+2026-07-15 21:49:18,214 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-15 21:49:18,214 - Main - INFO - Email Sent to Varad Gotkhindikar
+2026-07-15 21:49:18,215 - Main - INFO - Execution Completed
+2026-07-15 21:52:59,386 - Main - INFO - Agent Started
+2026-07-15 21:52:59,427 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 21:52:59,464 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 15/7/2026
+2026-07-15 21:53:00,618 - DriveScanner - INFO - File 15/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-15 21:53:00,618 - Main - INFO - Spreadsheet '15/7/2026' Found
+2026-07-15 21:53:02,109 - Main - INFO - Found sheets: ['15/07/2026']
+2026-07-15 21:53:02,700 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-15 21:53:02,700 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-15 21:53:03,363 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:53:03,363 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:53:05,133 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-15 21:53:05,133 - EmailSender - INFO - Sending Email to varadg1705@gmail.com
+2026-07-15 21:53:08,650 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-15 21:53:08,650 - Main - INFO - Email Sent to Varad Gotkhindikar
+2026-07-15 21:53:08,650 - Main - INFO - Execution Completed
+2026-07-15 21:58:41,007 - Main - INFO - Agent Started
+2026-07-15 21:58:41,049 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 21:58:41,085 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 15/7/2026
+2026-07-15 21:58:42,285 - DriveScanner - INFO - File 15/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-15 21:58:42,285 - Main - INFO - Spreadsheet '15/7/2026' Found
+2026-07-15 21:58:43,796 - Main - INFO - Found sheets: ['15/07/2026']
+2026-07-15 21:58:44,382 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-15 21:58:44,382 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-15 21:58:45,102 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:58:45,102 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 21:58:46,536 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-15 21:58:46,536 - EmailSender - INFO - Sending Email to varadg1705@gmail.com
+2026-07-15 21:58:50,742 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-15 21:58:50,743 - Main - INFO - Email Sent to Varad Gotkhindikar
+2026-07-15 21:58:50,743 - Main - INFO - Execution Completed
+2026-07-15 22:10:07,432 - Main - INFO - Agent Started
+2026-07-15 22:10:07,472 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 22:10:07,710 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for ALL files named: 15/7/2026
+2026-07-15 22:10:08,843 - DriveScanner - INFO - Found shortcut '15/7/2026' -> target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-15 22:10:08,843 - Main - INFO - Found 1 spreadsheet(s) for 15/7/2026: ['15/7/2026']
+2026-07-15 22:10:08,843 - Main - INFO - --- Processing Spreadsheet: '15/7/2026' (ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8) ---
+2026-07-15 22:10:10,481 - Main - INFO - Found sheets: ['15/07/2026']
+2026-07-15 22:10:11,132 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-15 22:10:11,133 - Main - INFO - Generating Email for Varad Gotkhindikar from '15/7/2026'
+2026-07-15 22:10:11,133 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 22:10:13,102 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-15 22:10:13,102 - EmailSender - INFO - Sending Email to varadg1705@gmail.com
+2026-07-15 22:10:16,571 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-15 22:10:16,571 - Main - INFO - Email Sent to Varad Gotkhindikar
+2026-07-15 22:10:16,571 - Main - INFO - Execution Completed — 1 email(s) sent across 1 spreadsheet(s).
+2026-07-15 22:11:09,922 - Main - INFO - Agent Started
+2026-07-15 22:11:09,963 - DriveScanner - INFO - Connected Google Drive
+2026-07-15 22:11:09,999 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 15/7/2026
+2026-07-15 22:11:11,095 - DriveScanner - INFO - File 15/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-15 22:11:11,095 - Main - INFO - Spreadsheet '15/7/2026' Found
+2026-07-15 22:11:12,427 - Main - INFO - Found sheets: ['15/07/2026']
+2026-07-15 22:11:12,882 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-15 22:11:12,882 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-15 22:11:13,523 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 22:11:13,524 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-15 22:11:15,066 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-15 22:11:15,067 - EmailSender - INFO - Sending Email to varadg1705@gmail.com
+2026-07-15 22:11:18,389 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-15 22:11:18,390 - Main - INFO - Email Sent to Varad Gotkhindikar
+2026-07-15 22:11:18,390 - Main - INFO - Execution Completed
+2026-07-16 07:15:21,252 - Main - INFO - Agent Started
+2026-07-16 07:15:21,321 - DriveScanner - INFO - Connected Google Drive
+2026-07-16 07:15:21,385 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 16/7/2026
+2026-07-16 07:15:22,706 - DriveScanner - WARNING - File 16/7/2026 not found.
+2026-07-16 07:15:22,707 - Main - WARNING - Spreadsheet '16/7/2026' missing or not found. Exiting gracefully.
+2026-07-16 07:15:22,708 - Main - INFO - Execution Completed
+2026-07-16 07:16:22,917 - Main - INFO - Agent Started
+2026-07-16 07:16:22,958 - DriveScanner - INFO - Connected Google Drive
+2026-07-16 07:16:22,994 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 16/7/2026
+2026-07-16 07:16:24,055 - DriveScanner - INFO - File 16/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-16 07:16:24,055 - Main - INFO - Spreadsheet '16/7/2026' Found
+2026-07-16 07:16:25,567 - Main - INFO - Found sheets: ['16/07/2026']
+2026-07-16 07:16:26,125 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-16 07:16:26,126 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-16 07:16:26,779 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-16 07:16:26,779 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-16 07:16:28,288 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 07:16:28,288 - EmailSender - INFO - Sending Email to varadg1705@gmail.com
+2026-07-16 07:16:32,708 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-16 07:16:32,708 - Main - INFO - Email Sent to Varad Gotkhindikar
+2026-07-16 07:16:32,708 - Main - INFO - Generating Email for hello
+2026-07-16 07:16:32,708 - AIEmailGenerator - INFO - Generating Email for hello
+2026-07-16 07:16:33,869 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 07:16:33,869 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-16 07:16:37,508 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-16 07:16:37,509 - Main - INFO - Email Sent to hello
+2026-07-16 07:16:37,509 - Main - INFO - Execution Completed
+2026-07-16 10:31:52,393 - Main - INFO - Agent Started
+2026-07-16 10:31:52,508 - DriveScanner - INFO - Connected Google Drive
+2026-07-16 10:31:52,604 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 16/7/2026
+2026-07-16 10:31:54,152 - DriveScanner - INFO - File 16/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-16 10:31:54,153 - Main - INFO - Spreadsheet '16/7/2026' Found
+2026-07-16 10:31:56,144 - Main - INFO - Found sheets: ['16/07/2026']
+2026-07-16 10:31:56,719 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-16 10:31:56,720 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-16 10:31:57,534 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-16 10:31:57,534 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-16 10:31:59,238 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 10:31:59,239 - EmailSender - INFO - Sending Email to varadg1705@gmail.com
+2026-07-16 10:32:03,385 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-16 10:32:03,385 - Main - INFO - Email Sent to Varad Gotkhindikar
+2026-07-16 10:32:03,386 - Main - INFO - Generating Email for hello
+2026-07-16 10:32:03,386 - AIEmailGenerator - INFO - Generating Email for hello
+2026-07-16 10:32:04,589 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 10:32:04,590 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-16 10:32:08,273 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-16 10:32:08,274 - Main - INFO - Email Sent to hello
+2026-07-16 10:32:08,274 - Main - INFO - Execution Completed
+2026-07-16 10:35:11,819 - Main - INFO - Agent Started
+2026-07-16 10:35:11,877 - DriveScanner - INFO - Connected Google Drive
+2026-07-16 10:35:11,927 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 16/7/2026
+2026-07-16 10:35:13,896 - DriveScanner - INFO - File 16/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-16 10:35:13,897 - Main - INFO - Spreadsheet '16/7/2026' Found
+2026-07-16 10:35:16,591 - Main - INFO - Found sheets: ['16/07/2026']
+2026-07-16 10:35:17,202 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-16 10:35:17,203 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-16 10:35:18,277 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-16 10:35:18,277 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-16 10:35:20,810 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 10:35:20,811 - EmailSender - INFO - Sending Email to varadg1705@gmail.com
+2026-07-16 10:35:26,687 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-16 10:35:26,688 - Main - INFO - Email Sent to Varad Gotkhindikar
+2026-07-16 10:35:26,688 - Main - INFO - Generating Email for hello
+2026-07-16 10:35:26,690 - AIEmailGenerator - INFO - Generating Email for hello
+2026-07-16 10:35:28,045 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 10:35:28,046 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-16 10:35:32,597 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-16 10:35:32,599 - Main - INFO - Email Sent to hello
+2026-07-16 10:35:32,600 - Main - INFO - Execution Completed
+2026-07-16 10:38:39,141 - Main - INFO - Agent Started
+2026-07-16 10:38:39,204 - DriveScanner - INFO - Connected Google Drive
+2026-07-16 10:38:39,272 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 16/7/2026
+2026-07-16 10:38:41,286 - DriveScanner - INFO - File 16/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-16 10:38:41,288 - Main - INFO - Spreadsheet '16/7/2026' Found
+2026-07-16 10:38:43,452 - Main - INFO - Found sheets: ['16/07/2026']
+2026-07-16 10:38:43,965 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-16 10:38:43,966 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-16 10:38:44,855 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-16 10:38:44,855 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-16 10:38:46,949 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 10:38:46,950 - EmailSender - INFO - Sending Email to varadg1705@gmail.com
+2026-07-16 10:38:51,720 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-16 10:38:51,721 - Main - INFO - Email Sent to Varad Gotkhindikar
+2026-07-16 10:38:51,722 - Main - INFO - Generating Email for hello
+2026-07-16 10:38:51,722 - AIEmailGenerator - INFO - Generating Email for hello
+2026-07-16 10:38:52,814 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 10:38:52,815 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-16 10:38:57,009 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-16 10:38:57,010 - Main - INFO - Email Sent to hello
+2026-07-16 10:38:57,010 - Main - INFO - Execution Completed
+2026-07-16 11:38:00,741 - Main - INFO - Agent Started
+2026-07-16 11:38:00,781 - DriveScanner - INFO - Connected Google Drive
+2026-07-16 11:38:00,816 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 16/7/2026
+2026-07-16 11:38:02,260 - DriveScanner - INFO - File 16/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-16 11:38:02,260 - Main - INFO - Spreadsheet '16/7/2026' Found
+2026-07-16 11:38:03,763 - Main - INFO - Found sheets: ['16/07/2026']
+2026-07-16 11:38:04,160 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-16 11:38:04,160 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-16 11:38:04,885 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-16 11:38:04,885 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-16 11:38:06,437 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 11:38:06,437 - EmailSender - INFO - Sending Email to varadg1705@gmail.com
+2026-07-16 11:38:10,634 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-16 11:38:10,635 - Main - INFO - Email Sent to Varad Gotkhindikar
+2026-07-16 11:38:10,635 - Main - INFO - Generating Email for hello
+2026-07-16 11:38:10,635 - AIEmailGenerator - INFO - Generating Email for hello
+2026-07-16 11:38:11,909 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 11:38:11,909 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-16 11:38:16,187 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-16 11:38:16,187 - Main - INFO - Email Sent to hello
+2026-07-16 11:38:16,187 - Main - INFO - Execution Completed
+2026-07-16 12:00:43,707 - Main - INFO - Agent Started
+2026-07-16 12:00:43,747 - DriveScanner - INFO - Connected Google Drive
+2026-07-16 12:00:43,784 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 16/7/2026
+2026-07-16 12:00:45,236 - DriveScanner - INFO - File 16/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-16 12:00:45,236 - Main - INFO - Spreadsheet '16/7/2026' Found
+2026-07-16 12:00:47,049 - Main - INFO - Found sheets: ['16/07/2026']
+2026-07-16 12:00:47,548 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-16 12:00:47,548 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-16 12:00:48,252 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-16 12:00:48,252 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-16 12:00:50,079 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 12:00:50,079 - EmailSender - INFO - Sending Email to varadg1705@gmail.com
+2026-07-16 12:00:54,282 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-16 12:00:54,282 - Main - INFO - Email Sent to Varad Gotkhindikar
+2026-07-16 12:00:54,282 - Main - INFO - Generating Email for hello
+2026-07-16 12:00:54,283 - AIEmailGenerator - INFO - Generating Email for hello
+2026-07-16 12:00:55,569 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 12:00:55,569 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-16 12:00:59,565 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-16 12:00:59,566 - Main - INFO - Email Sent to hello
+2026-07-16 12:00:59,566 - Main - INFO - Execution Completed
+2026-07-16 12:03:15,907 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-16 12:03:15,965 - DriveScanner - INFO - Connected Google Drive
+2026-07-16 12:03:15,965 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-16 12:03:27,601 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-16 12:03:29,272 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 12:03:29,273 - EmailSender - INFO - Sending Email to varadg1705@gmail.com
+2026-07-16 12:03:32,839 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-16 12:03:32,840 - AIEmailGenerator - INFO - Generating Email for hello
+2026-07-16 12:03:34,132 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 12:03:34,132 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-16 12:03:37,842 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-16 12:06:32,715 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-16 12:06:32,769 - DriveScanner - INFO - Connected Google Drive
+2026-07-16 12:06:32,769 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-16 12:32:53,625 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-16 12:32:53,681 - DriveScanner - INFO - Connected Google Drive
+2026-07-16 12:32:53,681 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-16 12:37:55,787 - Main - INFO - Agent Started
+2026-07-16 12:37:55,825 - DriveScanner - INFO - Connected Google Drive
+2026-07-16 12:37:55,860 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 16/7/2026
+2026-07-16 12:37:57,185 - DriveScanner - INFO - File 16/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-16 12:37:57,185 - Main - INFO - Spreadsheet '16/7/2026' Found
+2026-07-16 12:37:58,767 - Main - INFO - Found sheets: ['16/07/2026']
+2026-07-16 12:37:59,199 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-16 12:37:59,199 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-16 12:37:59,889 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-16 12:37:59,890 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-16 12:38:01,484 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 12:38:01,485 - EmailSender - INFO - Sending Email to varadg1705@gmail.com
+2026-07-16 12:38:05,519 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-16 12:38:05,520 - Main - INFO - Email Sent to Varad Gotkhindikar
+2026-07-16 12:38:05,520 - Main - INFO - Generating Email for hello
+2026-07-16 12:38:05,520 - AIEmailGenerator - INFO - Generating Email for hello
+2026-07-16 12:38:06,732 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 12:38:06,732 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-16 12:38:10,796 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-16 12:38:10,796 - Main - INFO - Email Sent to hello
+2026-07-16 12:38:10,796 - Main - INFO - Generating Email for Om Salokhe
+2026-07-16 12:38:10,796 - AIEmailGenerator - INFO - Generating Email for Om Salokhe
+2026-07-16 12:38:12,101 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 12:38:12,101 - EmailSender - INFO - Sending Email to omsalokhe2004@gmail.com
+2026-07-16 12:38:17,113 - EmailSender - INFO - Email Sent to omsalokhe2004@gmail.com
+2026-07-16 12:38:17,114 - Main - INFO - Email Sent to Om Salokhe
+2026-07-16 12:38:17,114 - Main - INFO - Execution Completed
+2026-07-16 12:40:01,554 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-16 12:40:01,594 - DriveScanner - INFO - Connected Google Drive
+2026-07-16 12:40:01,595 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-16 12:40:19,350 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-16 12:40:20,900 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 12:40:20,900 - EmailSender - INFO - Sending Email to varadg1705@gmail.com
+2026-07-16 12:40:24,590 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-16 12:40:24,590 - AIEmailGenerator - INFO - Generating Email for hello
+2026-07-16 12:40:25,673 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 12:40:25,673 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-16 12:40:29,268 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-16 12:40:29,268 - AIEmailGenerator - INFO - Generating Email for Om Salokhe
+2026-07-16 12:40:30,474 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 12:40:30,474 - EmailSender - INFO - Sending Email to omsalokhe2004@gmail.com
+2026-07-16 12:40:33,936 - EmailSender - INFO - Email Sent to omsalokhe2004@gmail.com
+2026-07-16 14:28:45,308 - Main - INFO - Agent Started
+2026-07-16 14:28:45,369 - DriveScanner - INFO - Connected Google Drive
+2026-07-16 14:28:45,460 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 16/7/2026
+2026-07-16 14:28:47,274 - DriveScanner - INFO - File 16/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-16 14:28:47,275 - Main - INFO - Spreadsheet '16/7/2026' Found
+2026-07-16 14:28:59,257 - Main - INFO - Found sheets: ['16/07/2026']
+2026-07-16 14:29:00,386 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-16 14:29:00,387 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-16 14:29:01,298 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-16 14:29:01,298 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-16 14:29:03,189 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 14:29:03,189 - EmailSender - INFO - Sending Email to varadg1705@gmail.com
+2026-07-16 14:29:07,576 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-16 14:29:07,576 - Main - INFO - Email Sent to Varad Gotkhindikar
+2026-07-16 14:29:07,576 - Main - INFO - Generating Email for hello
+2026-07-16 14:29:07,577 - AIEmailGenerator - INFO - Generating Email for hello
+2026-07-16 14:29:08,895 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 14:29:08,896 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-16 14:29:12,999 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-16 14:29:13,000 - Main - INFO - Email Sent to hello
+2026-07-16 14:29:13,000 - Main - INFO - Generating Email for Om Salokhe
+2026-07-16 14:29:13,001 - AIEmailGenerator - INFO - Generating Email for Om Salokhe
+2026-07-16 14:29:14,056 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 14:29:14,057 - EmailSender - INFO - Sending Email to omsalokhe2004@gmail.com
+2026-07-16 14:29:18,095 - EmailSender - INFO - Email Sent to omsalokhe2004@gmail.com
+2026-07-16 14:29:18,096 - Main - INFO - Email Sent to Om Salokhe
+2026-07-16 14:29:18,097 - Main - INFO - Execution Completed
+2026-07-16 14:35:25,727 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-16 14:35:25,921 - DriveScanner - INFO - Connected Google Drive
+2026-07-16 14:35:25,922 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-16 14:35:42,519 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-16 14:35:44,463 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 14:35:44,464 - EmailSender - INFO - Sending Email to varadg1705@gmail.com
+2026-07-16 14:35:48,269 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-16 14:35:48,552 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-16 14:35:48,553 - AIEmailGenerator - INFO - Generating Email for hello
+2026-07-16 14:35:49,658 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 14:35:49,659 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-16 14:35:49,691 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 14:35:49,691 - EmailSender - INFO - Sending Email to varadg1705@gmail.com
+2026-07-16 14:35:53,228 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-16 14:35:53,228 - AIEmailGenerator - INFO - Generating Email for hello
+2026-07-16 14:35:53,544 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-16 14:35:53,545 - AIEmailGenerator - INFO - Generating Email for Om Salokhe
+2026-07-16 14:35:54,275 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 14:35:54,275 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-16 14:35:54,685 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 14:35:54,686 - EmailSender - INFO - Sending Email to omsalokhe2004@gmail.com
+2026-07-16 14:35:57,904 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-16 14:35:57,905 - AIEmailGenerator - INFO - Generating Email for Om Salokhe
+2026-07-16 14:35:58,505 - EmailSender - INFO - Email Sent to omsalokhe2004@gmail.com
+2026-07-16 14:35:58,943 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 14:35:58,944 - EmailSender - INFO - Sending Email to omsalokhe2004@gmail.com
+2026-07-16 14:36:02,485 - EmailSender - INFO - Email Sent to omsalokhe2004@gmail.com
+2026-07-16 14:39:01,262 - Main - INFO - Agent Started
+2026-07-16 14:39:01,329 - DriveScanner - INFO - Connected Google Drive
+2026-07-16 14:39:01,388 - DriveScanner - INFO - Scanning Folder 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt for file: 16/7/2026
+2026-07-16 14:39:03,195 - DriveScanner - INFO - File 16/7/2026 is a shortcut pointing to target ID: 11CFmsYjLGyU53GkZuAoRKXmbd-qxmuqr9oeAExsdcK8
+2026-07-16 14:39:03,196 - Main - INFO - Spreadsheet '16/7/2026' Found
+2026-07-16 14:39:05,049 - Main - INFO - Found sheets: ['16/07/2026']
+2026-07-16 14:39:05,514 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-16 14:39:05,515 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-16 14:39:06,324 - Main - INFO - Generating Email for Varad Gotkhindikar
+2026-07-16 14:39:06,325 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-16 14:39:07,921 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 14:39:07,921 - EmailSender - INFO - Sending Email to varadg1705@gmail.com
+2026-07-16 14:39:11,437 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-16 14:39:11,437 - Main - INFO - Email Sent to Varad Gotkhindikar
+2026-07-16 14:39:11,438 - Main - INFO - Generating Email for hello
+2026-07-16 14:39:11,438 - AIEmailGenerator - INFO - Generating Email for hello
+2026-07-16 14:39:12,690 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 14:39:12,690 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-16 14:39:16,477 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-16 14:39:16,477 - Main - INFO - Email Sent to hello
+2026-07-16 14:39:16,478 - Main - INFO - Generating Email for Om Salokhe
+2026-07-16 14:39:16,478 - AIEmailGenerator - INFO - Generating Email for Om Salokhe
+2026-07-16 14:39:17,518 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 14:39:17,519 - EmailSender - INFO - Sending Email to omsalokhe2004@gmail.com
+2026-07-16 14:39:21,315 - EmailSender - INFO - Email Sent to omsalokhe2004@gmail.com
+2026-07-16 14:39:21,315 - Main - INFO - Email Sent to Om Salokhe
+2026-07-16 14:39:21,316 - Main - INFO - Execution Completed
+2026-07-16 14:40:20,849 - AttendanceProcessor - INFO - Reading Attendance...
+2026-07-16 14:40:21,031 - DriveScanner - INFO - Connected Google Drive
+2026-07-16 14:40:21,031 - AttendanceCalculator - INFO - Calculating Attendance for month -07-2026
+2026-07-16 14:40:32,188 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-16 14:40:34,003 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 14:40:34,003 - EmailSender - INFO - Sending Email to varadg1705@gmail.com
+2026-07-16 14:40:37,455 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-16 14:40:37,456 - AIEmailGenerator - INFO - Generating Email for hello
+2026-07-16 14:40:38,695 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 14:40:38,695 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com
+2026-07-16 14:40:42,173 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-16 14:40:42,174 - AIEmailGenerator - INFO - Generating Email for Om Salokhe
+2026-07-16 14:40:43,386 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-16 14:40:43,387 - EmailSender - INFO - Sending Email to omsalokhe2004@gmail.com
+2026-07-16 14:40:47,180 - EmailSender - INFO - Email Sent to omsalokhe2004@gmail.com
+2026-07-30 17:53:34,163 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 17:53:34,164 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 17:54:56,733 - AISheetAnalyzer - INFO - Analyzing sheet structure via AI Agent...
+2026-07-30 17:54:57,433 - AISheetAnalyzer - INFO - AI sheet analysis result: {'header_row_index': 1, 'data_start_row_index': 2, 'roll_no_col_index': 0, 'name_col_index': 1, 'email_col_index': 2, 'present_value': 'p', 'absent_value': 'A', 'lectures': [{'col_index': 3, 'subject': 'Artificial Intelligence', 'timing': '9:15 - 10:15'}, {'col_index': 4, 'subject': 'Deep Learning', 'timing': '10:15 - 11:15'}, {'col_index': 5, 'subject': 'R Programming', 'timing': '11:30 - 12:30'}, {'col_index': 6, 'subject': 'Advance DB', 'timing': '12:30 - 1:30'}]}
+2026-07-30 17:54:57,924 - AttendanceProcessor - INFO - Scanning attendance using data start index 2...
+2026-07-30 17:55:49,971 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-30 17:55:51,541 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-30 17:55:51,542 - EmailSender - INFO - Sending Email to varadg1705@gmail.com via smtp.gmail.com:587
+2026-07-30 17:55:56,234 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-30 17:55:56,236 - AIEmailGenerator - INFO - Generating Email for hello
+2026-07-30 17:55:57,247 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-30 17:55:57,248 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com via smtp.gmail.com:587
+2026-07-30 17:56:00,939 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-30 17:56:00,941 - AIEmailGenerator - INFO - Generating Email for Om Salokhe
+2026-07-30 17:56:01,949 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-30 17:56:01,950 - EmailSender - INFO - Sending Email to  via smtp.gmail.com:587
+2026-07-30 17:56:04,609 - EmailSender - ERROR - SMTP failure when sending to : {'': (555, b'5.5.2 Syntax error, cannot decode response. For more information, go to\n5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321\n5.5.2 specifications. a92af1059eb24-13e7265010esm21442263c88.6 - gsmtp')}
+2026-07-30 17:57:44,746 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-30 17:57:46,002 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-30 17:57:50,712 - AIEmailGenerator - INFO - Generating Email for hello
+2026-07-30 17:57:53,040 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-30 17:59:10,477 - AISheetAnalyzer - INFO - Analyzing sheet structure via AI Agent...
+2026-07-30 17:59:11,247 - AISheetAnalyzer - INFO - AI sheet analysis result: {'header_row_index': 1, 'data_start_row_index': 2, 'roll_no_col_index': 0, 'name_col_index': 1, 'email_col_index': 2, 'present_value': 'p', 'absent_value': 'A', 'lectures': [{'col_index': 3, 'subject': 'Artificial Intelligence', 'timing': '9:15 - 10:15'}, {'col_index': 4, 'subject': 'Deep Learning', 'timing': '10:15 - 11:15'}, {'col_index': 5, 'subject': 'R Programming', 'timing': '11:30 - 12:30'}, {'col_index': 6, 'subject': 'Advance DB', 'timing': '12:30 - 1:30'}]}
+2026-07-30 17:59:11,654 - AttendanceProcessor - INFO - Scanning attendance using data start index 2...
+2026-07-30 18:00:15,677 - AIEmailGenerator - INFO - Generating Email for A
+2026-07-30 18:00:17,774 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-30 18:05:00,385 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:05:00,385 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:05:34,830 - AISheetAnalyzer - INFO - Analyzing sheet structure via AI Agent...
+2026-07-30 18:05:35,540 - AISheetAnalyzer - INFO - AI sheet analysis result: {'header_row_index': 1, 'data_start_row_index': 2, 'roll_no_col_index': 0, 'name_col_index': 1, 'email_col_index': 2, 'present_value': 'p', 'absent_value': 'A', 'lectures': [{'col_index': 3, 'subject': 'Artificial Intelligence', 'timing': '9:15 - 10:15'}, {'col_index': 4, 'subject': 'Deep Learning', 'timing': '10:15 - 11:15'}, {'col_index': 5, 'subject': 'R Programming', 'timing': '11:30 - 12:30'}, {'col_index': 6, 'subject': 'Advance DB', 'timing': '12:30 - 1:30'}]}
+2026-07-30 18:05:35,949 - AttendanceProcessor - INFO - Scanning attendance using data start index 2...
+2026-07-30 18:07:10,909 - AISheetAnalyzer - INFO - Analyzing sheet structure via AI Agent...
+2026-07-30 18:07:11,408 - AISheetAnalyzer - INFO - AI sheet analysis result: {'header_row_index': 1, 'data_start_row_index': 2, 'roll_no_col_index': 0, 'name_col_index': 1, 'email_col_index': 2, 'present_value': 'p', 'absent_value': 'A', 'lectures': [{'col_index': 3, 'subject': 'Artificial Intelligence', 'timing': '9:15 - 10:15'}, {'col_index': 4, 'subject': 'Deep Learning', 'timing': '10:15 - 11:15'}, {'col_index': 5, 'subject': 'R Programming', 'timing': '11:30 - 12:30'}, {'col_index': 6, 'subject': 'Advance DB', 'timing': '12:30 - 1:30'}]}
+2026-07-30 18:07:11,822 - AttendanceProcessor - INFO - Scanning attendance using data start index 2...
+2026-07-30 18:07:37,096 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-30 18:07:38,461 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-30 18:07:38,462 - EmailSender - INFO - Sending Email to varadg1705@gmail.com via smtp.gmail.com:587
+2026-07-30 18:07:42,039 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-30 18:07:42,041 - AIEmailGenerator - INFO - Generating Email for hello
+2026-07-30 18:07:43,025 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-30 18:07:43,026 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com via smtp.gmail.com:587
+2026-07-30 18:07:46,928 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-30 18:07:46,930 - AIEmailGenerator - INFO - Generating Email for Ok
+2026-07-30 18:07:47,990 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-30 18:07:47,991 - EmailSender - INFO - Sending Email to  via smtp.gmail.com:587
+2026-07-30 18:07:50,590 - EmailSender - ERROR - SMTP failure when sending to : {'': (555, b'5.5.2 Syntax error, cannot decode response. For more information, go to\n5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321\n5.5.2 specifications. 5a478bee46e88-31504d37368sm38622168eec.22 - gsmtp')}
+2026-07-30 18:07:50,592 - AIEmailGenerator - INFO - Generating Email for A
+2026-07-30 18:07:52,249 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-30 18:07:52,250 - EmailSender - INFO - Sending Email to A@gmail.com via smtp.gmail.com:587
+2026-07-30 18:07:56,380 - EmailSender - INFO - Email Sent to A@gmail.com
+2026-07-30 18:09:13,570 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:09:13,570 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:09:23,391 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:09:23,391 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:09:27,566 - AISheetAnalyzer - INFO - Analyzing sheet structure via AI Agent...
+2026-07-30 18:09:28,015 - AISheetAnalyzer - INFO - AI sheet analysis result: {'header_row_index': 1, 'data_start_row_index': 2, 'roll_no_col_index': 0, 'name_col_index': 1, 'email_col_index': 2, 'present_value': 'p', 'absent_value': 'A', 'lectures': [{'col_index': 3, 'subject': 'Artificial Intelligence', 'timing': '9:15 - 10:15'}, {'col_index': 4, 'subject': 'Deep Learning', 'timing': '10:15 - 11:15'}, {'col_index': 5, 'subject': 'R Programming', 'timing': '11:30 - 12:30'}, {'col_index': 6, 'subject': 'Advance DB', 'timing': '12:30 - 1:30'}]}
+2026-07-30 18:09:28,570 - AttendanceProcessor - INFO - Scanning attendance using data start index 2...
+2026-07-30 18:09:42,042 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:09:42,042 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:09:46,868 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:09:46,869 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:09:49,772 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:09:49,772 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:09:52,325 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:09:52,325 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:10:25,787 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:10:25,788 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:12:25,955 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:12:25,956 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:12:34,150 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:12:34,151 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:12:34,973 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:12:34,973 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:12:35,175 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:12:35,175 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:12:35,352 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:12:35,353 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:12:35,544 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:12:35,544 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:12:35,760 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:12:35,761 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:13:54,952 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:13:54,952 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:14:02,394 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:14:02,395 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:14:06,270 - AISheetAnalyzer - INFO - Analyzing sheet structure via AI Agent...
+2026-07-30 18:14:07,328 - AISheetAnalyzer - INFO - AI sheet analysis result: {'header_row_index': 1, 'data_start_row_index': 2, 'roll_no_col_index': 0, 'name_col_index': 1, 'email_col_index': 2, 'present_value': 'p', 'absent_value': 'A', 'lectures': [{'col_index': 3, 'subject': 'Artificial Intelligence', 'timing': '9:15 - 10:15'}, {'col_index': 4, 'subject': 'Deep Learning', 'timing': '10:15 - 11:15'}, {'col_index': 5, 'subject': 'R Programming', 'timing': '11:30 - 12:30'}, {'col_index': 6, 'subject': 'Advance DB', 'timing': '12:30 - 1:30'}]}
+2026-07-30 18:14:07,743 - AttendanceProcessor - INFO - Scanning attendance using data start index 2...
+2026-07-30 18:14:46,725 - AISheetAnalyzer - INFO - Analyzing sheet structure via AI Agent...
+2026-07-30 18:14:47,555 - AISheetAnalyzer - INFO - AI sheet analysis result: {'header_row_index': 0, 'data_start_row_index': 1, 'roll_no_col_index': 0, 'name_col_index': 1, 'email_col_index': 2, 'present_value': 'P', 'absent_value': 'A', 'lectures': [{'col_index': 3, 'subject': 'Fundamental of DS', 'timing': '9:15 - 10:15'}, {'col_index': 4, 'subject': 'AI', 'timing': '10:15 - 11:15'}, {'col_index': 5, 'subject': 'ML', 'timing': '11:30 - 12:30'}, {'col_index': 6, 'subject': 'Advance DB', 'timing': '12:30 - 1:30'}]}
+2026-07-30 18:14:48,050 - AttendanceProcessor - INFO - Scanning attendance using data start index 1...
+2026-07-30 18:15:34,991 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:15:34,992 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:15:48,473 - AISheetAnalyzer - INFO - Analyzing sheet structure via AI Agent...
+2026-07-30 18:15:49,325 - AISheetAnalyzer - INFO - AI sheet analysis result: {'header_row_index': 0, 'data_start_row_index': 1, 'roll_no_col_index': 0, 'name_col_index': 1, 'email_col_index': 2, 'present_value': 'P', 'absent_value': 'A', 'lectures': [{'col_index': 3, 'subject': 'Fundamental of DS', 'timing': '9:15 - 10:15'}, {'col_index': 4, 'subject': 'AI', 'timing': '10:15 - 11:15'}, {'col_index': 5, 'subject': 'ML', 'timing': '11:30 - 12:30'}, {'col_index': 6, 'subject': 'Advance DB', 'timing': '12:30 - 1:30'}]}
+2026-07-30 18:15:49,719 - AttendanceProcessor - INFO - Scanning attendance using data start index 1...
+2026-07-30 18:16:27,358 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:16:27,358 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:16:36,715 - AISheetAnalyzer - INFO - Analyzing sheet structure via AI Agent...
+2026-07-30 18:16:37,238 - AISheetAnalyzer - INFO - AI sheet analysis result: {'header_row_index': 0, 'data_start_row_index': 1, 'roll_no_col_index': 0, 'name_col_index': 1, 'email_col_index': 2, 'present_value': 'P', 'absent_value': 'A', 'lectures': [{'col_index': 3, 'subject': 'Fundamental of DS', 'timing': '9:15 - 10:15'}, {'col_index': 4, 'subject': 'AI', 'timing': '10:15 - 11:15'}, {'col_index': 5, 'subject': 'ML', 'timing': '11:30 - 12:30'}, {'col_index': 6, 'subject': 'Advance DB', 'timing': '12:30 - 1:30'}]}
+2026-07-30 18:16:37,701 - AttendanceProcessor - INFO - Scanning attendance using data start index 1...
+2026-07-30 18:19:08,109 - AISheetAnalyzer - INFO - Analyzing sheet structure via AI Agent...
+2026-07-30 18:19:08,751 - AISheetAnalyzer - INFO - AI sheet analysis result: {'header_row_index': 0, 'data_start_row_index': 1, 'roll_no_col_index': 0, 'name_col_index': 1, 'email_col_index': 2, 'present_value': 'P', 'absent_value': 'A', 'lectures': [{'col_index': 3, 'subject': 'Fundamental of DS', 'timing': '9:15 - 10:15'}, {'col_index': 4, 'subject': 'AI', 'timing': '10:15 - 11:15'}, {'col_index': 5, 'subject': 'ML', 'timing': '11:30 - 12:30'}, {'col_index': 6, 'subject': 'Advance DB', 'timing': '12:30 - 1:30'}]}
+2026-07-30 18:19:09,182 - AttendanceProcessor - INFO - Scanning attendance using data start index 1...
+2026-07-30 18:20:06,538 - AISheetAnalyzer - INFO - Analyzing sheet structure via AI Agent...
+2026-07-30 18:20:06,978 - AISheetAnalyzer - INFO - AI sheet analysis result: {'header_row_index': 1, 'data_start_row_index': 2, 'roll_no_col_index': 0, 'name_col_index': 1, 'email_col_index': 2, 'present_value': 'p', 'absent_value': 'A', 'lectures': [{'col_index': 3, 'subject': 'Artificial Intelligence', 'timing': '9:15 - 10:15'}, {'col_index': 4, 'subject': 'Deep Learning', 'timing': '10:15 - 11:15'}, {'col_index': 5, 'subject': 'R Programming', 'timing': '11:30 - 12:30'}, {'col_index': 6, 'subject': 'Advance DB', 'timing': '12:30 - 1:30'}]}
+2026-07-30 18:20:07,378 - AttendanceProcessor - INFO - Scanning attendance using data start index 2...
+2026-07-30 18:20:22,963 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-30 18:20:24,294 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-30 18:20:28,310 - EmailSender - INFO - Sending Email to varadg1705@gmail.com via smtp.gmail.com:587
+2026-07-30 18:20:31,820 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-30 18:20:31,822 - AIEmailGenerator - INFO - Generating Email for hello
+2026-07-30 18:20:32,974 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-30 18:20:32,974 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com via smtp.gmail.com:587
+2026-07-30 18:20:36,317 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-30 18:20:36,318 - AIEmailGenerator - INFO - Generating Email for Ok
+2026-07-30 18:20:37,445 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-30 18:20:37,446 - EmailSender - INFO - Sending Email to  via smtp.gmail.com:587
+2026-07-30 18:20:39,953 - EmailSender - ERROR - SMTP failure when sending to : {'': (555, b'5.5.2 Syntax error, cannot decode response. For more information, go to\n5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321\n5.5.2 specifications. 5a478bee46e88-31504dca6a8sm21426883eec.29 - gsmtp')}
+2026-07-30 18:21:41,560 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:21:41,560 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:21:45,269 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:21:45,269 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:21:49,201 - AISheetAnalyzer - INFO - Analyzing sheet structure via AI Agent...
+2026-07-30 18:21:49,868 - AISheetAnalyzer - INFO - AI sheet analysis result: {'header_row_index': 1, 'data_start_row_index': 2, 'roll_no_col_index': 0, 'name_col_index': 1, 'email_col_index': 2, 'present_value': 'p', 'absent_value': 'A', 'lectures': [{'col_index': 3, 'subject': 'Artificial Intelligence', 'timing': '9:15 - 10:15'}, {'col_index': 4, 'subject': 'Deep Learning', 'timing': '10:15 - 11:15'}, {'col_index': 5, 'subject': 'R Programming', 'timing': '11:30 - 12:30'}, {'col_index': 6, 'subject': 'Advance DB', 'timing': '12:30 - 1:30'}]}
+2026-07-30 18:21:50,331 - AttendanceProcessor - INFO - Scanning attendance using data start index 2...
+2026-07-30 18:22:13,663 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:22:13,663 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:22:15,636 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-30 18:22:16,986 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-30 18:22:16,987 - EmailSender - INFO - Sending Email to varadg1705@gmail.com via smtp.gmail.com:587
+2026-07-30 18:22:20,727 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-30 18:22:20,728 - AIEmailGenerator - INFO - Generating Email for hello
+2026-07-30 18:22:21,936 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-30 18:22:21,937 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com via smtp.gmail.com:587
+2026-07-30 18:22:25,172 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-30 18:22:25,174 - AIEmailGenerator - INFO - Generating Email for Ok
+2026-07-30 18:22:26,180 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-30 18:22:26,181 - EmailSender - INFO - Sending Email to  via smtp.gmail.com:587
+2026-07-30 18:22:28,584 - EmailSender - ERROR - SMTP failure when sending to : {'': (555, b'5.5.2 Syntax error, cannot decode response. For more information, go to\n5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321\n5.5.2 specifications. 5a478bee46e88-31504b12cdasm24046069eec.1 - gsmtp')}
+2026-07-30 18:24:09,405 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:24:09,405 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:24:13,413 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:24:13,413 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:24:17,226 - AISheetAnalyzer - INFO - Analyzing sheet structure via AI Agent...
+2026-07-30 18:24:17,667 - AISheetAnalyzer - INFO - AI sheet analysis result: {'header_row_index': 1, 'data_start_row_index': 2, 'roll_no_col_index': 0, 'name_col_index': 1, 'email_col_index': 2, 'present_value': 'p', 'absent_value': 'A', 'lectures': [{'col_index': 3, 'subject': 'Artificial Intelligence', 'timing': '9:15 - 10:15'}, {'col_index': 4, 'subject': 'Deep Learning', 'timing': '10:15 - 11:15'}, {'col_index': 5, 'subject': 'R Programming', 'timing': '11:30 - 12:30'}, {'col_index': 6, 'subject': 'Advance DB', 'timing': '12:30 - 1:30'}]}
+2026-07-30 18:24:18,059 - AttendanceProcessor - INFO - Scanning attendance using data start index 2...
+2026-07-30 18:24:26,451 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:24:26,451 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:24:30,862 - AISheetAnalyzer - INFO - Analyzing sheet structure via AI Agent...
+2026-07-30 18:24:31,353 - AISheetAnalyzer - INFO - AI sheet analysis result: {'header_row_index': 1, 'data_start_row_index': 2, 'roll_no_col_index': 0, 'name_col_index': 1, 'email_col_index': 2, 'present_value': 'p', 'absent_value': 'A', 'lectures': [{'col_index': 3, 'subject': 'Artificial Intelligence', 'timing': '9:15 - 10:15'}, {'col_index': 4, 'subject': 'Deep Learning', 'timing': '10:15 - 11:15'}, {'col_index': 5, 'subject': 'R Programming', 'timing': '11:30 - 12:30'}, {'col_index': 6, 'subject': 'Advance DB', 'timing': '12:30 - 1:30'}]}
+2026-07-30 18:24:31,878 - AttendanceProcessor - INFO - Scanning attendance using data start index 2...
+2026-07-30 18:28:09,132 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:28:09,132 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:28:39,610 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:28:39,610 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:28:52,017 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:28:52,017 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:28:58,259 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:28:58,260 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:29:03,892 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:29:03,892 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:29:15,120 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:29:15,120 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:29:19,140 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:29:19,140 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:29:23,304 - AISheetAnalyzer - INFO - Analyzing sheet structure via AI Agent...
+2026-07-30 18:29:23,808 - AISheetAnalyzer - INFO - AI sheet analysis result: {'header_row_index': 1, 'data_start_row_index': 2, 'roll_no_col_index': 0, 'name_col_index': 1, 'email_col_index': 2, 'present_value': 'p', 'absent_value': 'A', 'lectures': [{'col_index': 3, 'subject': 'Artificial Intelligence', 'timing': '9:15 - 10:15'}, {'col_index': 4, 'subject': 'Deep Learning', 'timing': '10:15 - 11:15'}, {'col_index': 5, 'subject': 'R Programming', 'timing': '11:30 - 12:30'}, {'col_index': 6, 'subject': 'Advance DB', 'timing': '12:30 - 1:30'}]}
+2026-07-30 18:29:24,278 - AttendanceProcessor - INFO - Scanning attendance using data start index 2...
+2026-07-30 18:29:29,515 - DriveScanner - INFO - Connected Google Drive
+2026-07-30 18:29:29,516 - DriveScanner - INFO - Listing spreadsheets in Folder: 1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt
+2026-07-30 18:29:31,599 - AIEmailGenerator - INFO - Generating Email for Varad Gotkhindikar
+2026-07-30 18:29:33,106 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-30 18:29:33,107 - EmailSender - INFO - Sending Email to varadg1705@gmail.com via smtp.gmail.com:587
+2026-07-30 18:29:37,237 - EmailSender - INFO - Email Sent to varadg1705@gmail.com
+2026-07-30 18:29:37,238 - AIEmailGenerator - INFO - Generating Email for hello
+2026-07-30 18:29:38,294 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-30 18:29:38,295 - EmailSender - INFO - Sending Email to internshipwerbung@gmail.com via smtp.gmail.com:587
+2026-07-30 18:29:42,106 - EmailSender - INFO - Email Sent to internshipwerbung@gmail.com
+2026-07-30 18:29:42,107 - AIEmailGenerator - INFO - Generating Email for Ok
+2026-07-30 18:29:43,160 - AIEmailGenerator - INFO - Generated email format check: <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div sty...
+2026-07-30 18:29:43,160 - EmailSender - INFO - Sending Email to  via smtp.gmail.com:587
+2026-07-30 18:29:45,817 - EmailSender - ERROR - SMTP failure when sending to : {'': (555, b'5.5.2 Syntax error, cannot decode response. For more information, go to\n5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321\n5.5.2 specifications. 5a478bee46e88-31504b88e12sm21503558eec.11 - gsmtp')}
