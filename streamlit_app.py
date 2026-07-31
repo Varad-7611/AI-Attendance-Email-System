@@ -1,6 +1,7 @@
 import streamlit as st
 import os
 import re
+import json
 import time
 import pandas as pd
 from dotenv import load_dotenv
@@ -250,6 +251,31 @@ groq_model = st.sidebar.selectbox(
     index=0
 )
 
+st.sidebar.divider()
+st.sidebar.markdown("### Google Service Account")
+service_account_upload = st.sidebar.file_uploader(
+    "Upload service account JSON",
+    type=["json"],
+    help="Upload your Google service account JSON if Streamlit secrets are not configured."
+)
+service_account_json_text = st.sidebar.text_area(
+    "Or paste service account JSON",
+    value="",
+    height=140,
+    placeholder='{"type":"service_account", "...": "..."}',
+    help="Paste the full Google service account JSON here as an alternative to uploading the file."
+)
+
+runtime_service_account_source = default_config.get("service_account_source")
+if service_account_upload is not None:
+    runtime_service_account_source = json.load(service_account_upload)
+elif service_account_json_text.strip():
+    try:
+        runtime_service_account_source = json.loads(service_account_json_text)
+    except json.JSONDecodeError:
+        runtime_service_account_source = None
+        st.sidebar.error("Invalid service account JSON. Please paste a valid JSON object.")
+
 # Active State Stores
 if 'scanned_data' not in st.session_state:
     st.session_state['scanned_data'] = None
@@ -287,9 +313,9 @@ g_id, g_type = extract_gdrive_id(drive_url)
 
 if g_id:
     # Service account check
-    service_account_source = default_config.get("service_account_source")
+    service_account_source = runtime_service_account_source
     if not service_account_source:
-        st.error("Google service account credentials are missing. Add them in Streamlit secrets or set `SERVICE_ACCOUNT_FILE` locally.")
+        st.warning("Google service account credentials are missing. Upload or paste the JSON in the sidebar, or add it in Streamlit secrets.")
     elif isinstance(service_account_source, dict):
         st.caption("Google service account loaded securely from Streamlit secrets.")
     elif not os.path.exists(service_account_source):
