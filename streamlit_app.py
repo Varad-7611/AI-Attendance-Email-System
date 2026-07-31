@@ -1,22 +1,10 @@
 import streamlit as st
 import os
 import re
-import json
 import time
 import pandas as pd
 from dotenv import load_dotenv
 
-from google.oauth2 import service_account
-
-SCOPES = [
-    "https://www.googleapis.com/auth/drive",
-    "https://www.googleapis.com/auth/spreadsheets",
-]
-
-credentials = service_account.Credentials.from_service_account_info(
-    st.secrets["gcp_service_account"],
-    scopes=SCOPES,
-)
 # Import our backend agent components
 from config.config import Config
 from agent.drive_scanner import DriveScanner
@@ -25,6 +13,7 @@ from agent.attendance_processor import AttendanceProcessor
 from agent.ai_sheet_analyzer import AISheetAnalyzer
 from agent.ai_email_generator import AIEmailGenerator
 from agent.email_sender import EmailSender
+from config.secret_loader import get_secret_with_aliases
 
 # Page Configuration
 st.set_page_config(
@@ -194,10 +183,12 @@ except Exception:
     default_config = {
         "email_address": "",
         "email_password": "",
+        "smtp_from_email": "",
+        "smtp_from_name": "AI Attendance",
         "groq_api_key": "",
         "groq_model": "llama-3.3-70b-versatile",
         "google_drive_folder_id": "",
-        "service_account_file": "credentials/agent-502514-e0aaedfcc7c3.json"
+        "service_account_source": None
     }
 
 # ----------------- SIDEBAR CONFIG -----------------
@@ -286,7 +277,7 @@ st.markdown("""
 st.markdown("### 🔗 Google Drive Folder or Spreadsheet URL")
 drive_url = st.text_input(
     "Paste Google Drive Folder or direct Spreadsheet URL below:",
-    value=os.getenv("GOOGLE_DRIVE_FOLDER_URL", "https://drive.google.com/drive/folders/1XkH16-W-nAj5vIOsE6uaysYoa1LnWOtt?usp=drive_link"),
+    value=get_secret_with_aliases("GOOGLE_DRIVE_FOLDER_URL", default=""),
     placeholder="https://drive.google.com/drive/folders/... or https://docs.google.com/spreadsheets/d/...",
     label_visibility="collapsed"
 )
@@ -296,15 +287,19 @@ g_id, g_type = extract_gdrive_id(drive_url)
 
 if g_id:
     # Service account check
-    service_account_file = default_config.get("service_account_file")
-    if not service_account_file or not os.path.exists(service_account_file):
-        st.warning(f"⚠️ Service account file `{service_account_file}` not found. Scanning might fail.")
+    service_account_source = default_config.get("service_account_source")
+    if not service_account_source:
+        st.error("Google service account credentials are missing. Add them in Streamlit secrets or set `SERVICE_ACCOUNT_FILE` locally.")
+    elif isinstance(service_account_source, dict):
+        st.caption("Google service account loaded securely from Streamlit secrets.")
+    elif not os.path.exists(service_account_source):
+        st.warning(f"⚠️ Service account file `{service_account_source}` not found. Scanning might fail.")
 
-    if g_type == "folder":
+    if g_type == "folder" and service_account_source:
         # Folder Scanner flow
         st.info("📂 Google Drive Folder URL detected. Scanning list of spreadsheets...")
         try:
-            folder_scanner = DriveScanner(service_account_file, g_id)
+            folder_scanner = DriveScanner(service_account_source, g_id)
             sheets_in_folder = folder_scanner.list_spreadsheets_in_folder()
             if sheets_in_folder:
                 # Custom selection box for sheet
@@ -325,7 +320,7 @@ if g_id:
         except Exception as e:
             st.error(f"Failed to scan folder contents: {e}")
             st.session_state['selected_spreadsheet_id'] = None
-    else:
+    elif service_account_source:
         # Direct sheet flow
         st.session_state['selected_spreadsheet_id'] = g_id
         st.session_state['selected_spreadsheet_name'] = "Direct Spreadsheet"
@@ -354,7 +349,7 @@ if g_id:
                         
                         # 1. Read sheet tabs
                         status_block.info("🔍 Loading Sheet reader & querying tabs...")
-                        reader = SheetReader(service_account_file)
+                        reader = SheetReader(service_account_source)
                         tabs = reader.get_sheet_names(spreadsheet_id)
                         
                         # 2. Setup AI layout analyser
