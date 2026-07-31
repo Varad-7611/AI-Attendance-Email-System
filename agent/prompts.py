@@ -36,7 +36,7 @@ TEMPLATE:
         
         <div style="margin-top: 30px; font-size: 12px; color: #777; line-height: 1.5;">
             Regards,<br>
-            DYP Attendance<br>
+            AI Attendance<br>
             Attendance Management AI Agent System
         </div>
     </div>
