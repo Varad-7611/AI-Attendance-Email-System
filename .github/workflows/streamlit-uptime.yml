@@ -10,7 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ping deployed Streamlit app
+        env:
+          STREAMLIT_APP_URL: https://ai-attendance-email-system-ngph2wz4ss7m27zer5frwt.streamlit.app
         run: |
-          curl --fail --silent --show-error --location \
-            "https://ai-attendance-email-system-ngph2wz4ss7m27zer5frwt.streamlit.app/" \
-            > /dev/null
+          curl --fail --silent --show-error \
+            --connect-timeout 10 \
+            --max-time 30 \
+            "${STREAMLIT_APP_URL}/_stcore/health"
