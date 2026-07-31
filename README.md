@@ -283,7 +283,7 @@ This project is a strong portfolio piece because it shows:
 The Attendance Email AI Agent continuously monitors the health and performance of the Google Cloud services used during execution.
 
 
-<img width="1860" height="592" alt="image" src="https://github.com/user-attachments/assets/6cd40862-4476-42ea-a6b4-0fe5235f6fbd" />
+<img width="1919" height="621" alt="image" src="https://github.com/user-attachments/assets/4106429d-36c6-44fd-a6f2-936ab717e664" />
 
 ---
 
