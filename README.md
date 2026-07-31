@@ -268,13 +268,24 @@ This project is a strong portfolio piece because it shows:
 
 ### AI Email Preview
 
-<img width="1794" height="639" alt="Screenshot 2026-07-30 180735" src="https://github.com/user-attachments/assets/bf7e90bc-86e7-4bfe-8994-3e4c46f7f2fc" />
+<img width="687" height="626" alt="image" src="https://github.com/user-attachments/assets/f3aebb2c-0cb1-4716-9211-244e294f7e53" />
 
 ---
 
 ### Email Dispatch Logs
 
 <img width="1820" height="470" alt="Screenshot 2026-07-30 180748" src="https://github.com/user-attachments/assets/18278a27-0244-4b3c-9c23-ba8a93d0301f" />
+
+---
+
+### 📈 API Monitoring Dashboard
+
+The Attendance Email AI Agent continuously monitors the health and performance of the Google Cloud services used during execution.
+
+
+<img width="1860" height="592" alt="image" src="https://github.com/user-attachments/assets/6cd40862-4476-42ea-a6b4-0fe5235f6fbd" />
+
+---
 
 ## 📈 Future Improvements
 
